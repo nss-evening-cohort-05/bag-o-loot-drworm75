@@ -33,8 +33,9 @@ namespace BagOLoot
                     case 2:
                         AddToy.DoAction(bag, book);
                         break;
+                    
                 }
-            } while (choice != 3);
+            } while (choice != 4);
         }
     }
 }

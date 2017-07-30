@@ -20,6 +20,7 @@ namespace BagOLoot.Tests
         public void AddChildren(string child)
         {
             var result = _register.AddChild(child);
+            Console.WriteLine(result.name);
             Assert.True(result != null);
         }
 
